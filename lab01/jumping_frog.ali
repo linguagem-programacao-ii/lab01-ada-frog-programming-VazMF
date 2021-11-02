@@ -1,0 +1,58 @@
+V "GNAT Lib v9"
+M P W=b
+P ZX
+
+RN
+RV NO_IO
+RV SPARK_05
+
+U jumping_frog%b	jumping_frog.adb	e2633959 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20200312110721 76789da1 ada%s
+D a-except.ads		20200312110721 291912d5 ada.exceptions%s
+D a-inteio.ads		20200312110721 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20200312110721 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200312110721 119b8fb3 ada.streams%s
+D a-tags.ads		20200312110721 491b781d ada.tags%s
+D a-textio.ads		20200312110721 881db35a ada.text_io%s
+D a-tiinio.ads		20200312110721 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20200312110721 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200312110721 5ab55268 interfaces%s
+D i-cstrea.ads		20200312110721 e53d8b8e interfaces.c_streams%s
+D jumping_frog.adb	20211102060344 9c3503a7 jumping_frog%b
+D system.ads		20200312110721 4635ec04 system%s
+D s-crtl.ads		20200312110721 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200312110721 54135002 system.exception_table%s
+D s-ficobl.ads		20200312110721 078245e4 system.file_control_block%s
+D s-parame.ads		20200312110721 48ec542b system.parameters%s
+D s-secsta.ads		20200312110721 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20200312110721 a7318a92 system.soft_links%s
+D s-stache.ads		20200312110721 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200312110721 09bd3940 system.standard_library%s
+D s-stoele.ads		20200312110721 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200312110721 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200312110721 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20200312110721 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 12|1r6 1r31 2r6 2r31
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[8|46] 12|2w10 2r35
+X 7 a-textio.ads
+49K13*Text_IO 471e16 12|1w10 1r35
+263U14*Put_Line 12|33s13 35s13
+X 8 a-tiinio.ads
+56U14*Get 12|13s9[3|18] 23s13[3|18]
+X 12 jumping_frog.adb
+4U11*jumping_frog 4b11 40l5 40t17
+5a5 A(integer) 12m14 12r14 16r10 17r10
+6i5 P{integer} 16m5 27r44
+7i5 N{integer} 17m5 20r25 26r24
+8b5 GREATER{boolean} 28m17 32r12 34r15
+12i9 I=12:14{integer} 13r14
+20a9 B(integer) 22m18 22r18 27r22 27r30
+22i13 J=22:18{integer} 23r18
+26i13 X{integer} 27r25 27r33
+
